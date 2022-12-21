@@ -4,6 +4,8 @@ import factory_method.dialog.Dialog;
 import factory_method.dialog.HtmlDialog;
 import factory_method.dialog.WindowsDialog;
 
+import java.util.HashMap;
+
 public class Demo {
     private static Dialog dialog;
 
@@ -24,4 +26,6 @@ public class Demo {
         dialog.renderWindow();
     }
 
+
+    HashMap test = new HashMap();
 }
